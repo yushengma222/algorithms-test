@@ -1,4 +1,4 @@
-package com.example.algorithms.stack.test.bracket;
+package com.example.algorithms.stack.bracket;
 
 import java.io.BufferedReader;
 import java.io.IOException;

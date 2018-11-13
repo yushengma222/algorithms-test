@@ -1,4 +1,4 @@
-package com.example.algorithms.stack.test.reverse;
+package com.example.algorithms.stack.reverse;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,7 +1,8 @@
-package com.example.algorithms.stack.test.bracket;
+package com.example.algorithms.stack.bracket;
 
 /**
  * @author yushengma
+ * O(1)
  */
 public class BracketX {
     private String input;
