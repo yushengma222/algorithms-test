@@ -1,4 +1,4 @@
-package com.example.algorithms.recursion;
+package com.example.algorithms.recursion.mergesort;
 
 /**
  * @author yushengma
