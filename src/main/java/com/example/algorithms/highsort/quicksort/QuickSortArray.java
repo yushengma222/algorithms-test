@@ -2,7 +2,7 @@ package com.example.algorithms.highsort.quicksort;
 
 /**
  * @author yushengma
- * 快速排序
+ * 快速排序 -- 最右端作为枢纽
  */
 public class QuickSortArray {
     private long[] arr;

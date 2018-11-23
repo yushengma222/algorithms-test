@@ -2,7 +2,8 @@ package com.example.algorithms.highsort.shellsort;
 
 /**
  * @author yushengma
- * 希尔排序
+ * 希尔排序 -- n-增量排序(间隔序列)
+ * 约O(N*(logN)^2)
  */
 public class Array {
     private long[] arr;
