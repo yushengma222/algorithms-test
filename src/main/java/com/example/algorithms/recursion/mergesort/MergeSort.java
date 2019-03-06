@@ -3,7 +3,8 @@ package com.example.algorithms.recursion.mergesort;
 /**
  * @author yushengma
  * 归并排序
- * O(N*logN)
+ * 时间复杂度: O(N*logN); 空间复杂度: O(N)
+ * 稳定
  */
 public class MergeSort {
     private int[] array;

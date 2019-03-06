@@ -24,16 +24,16 @@ public class SortMethod {
 
     /**
      * 冒泡排序
-     * O(n^2)
+     * 时间复杂度: O(n^2); 空间复杂度: O(1)
      */
     private static void bubbleSort (int[] arr) {
-        int num = arr.length;
-        for (int i = num - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+        for (int out = arr.length - 1; out > 0; out--) {
+            for (int in = 0; in < out; in++) {
+                if (arr[in] > arr[in + 1]) {
+//                    元素交换
+                    int temp = arr[in];
+                    arr[in] = arr[in + 1];
+                    arr[in + 1] = temp;
                 }
             }
         }
@@ -41,8 +41,8 @@ public class SortMethod {
 
     /**
      * 选择排序
-     * O(n^2)
-     * 交换次数少
+     * 时间复杂度: O(n^2); 空间复杂度: O(1)
+     * 相比冒泡排序交换次数少（<= arr.length） -- 数据规模小较优
      * @param arr
      */
     private static void selectSort(int[] arr) {
@@ -53,6 +53,7 @@ public class SortMethod {
                     min = in;
                 }
             }
+//            元素交换
             int temp = arr[out];
             arr[out] = arr[min];
             arr[min] = temp;
@@ -61,8 +62,8 @@ public class SortMethod {
 
     /**
      * 插入排序
-     * O(n^2)
-     * 已有序、基本有序效率更高
+     * 时间复杂度: O(n^2); 空间复杂度: O(1)
+     * 已有序、基本有序效率更高；完全逆序不如冒泡排序
      * @param arr
      */
     private static void insertSort(int[] arr) {

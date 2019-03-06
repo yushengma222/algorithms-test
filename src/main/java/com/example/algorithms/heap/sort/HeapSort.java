@@ -5,7 +5,7 @@ import com.example.algorithms.heap.Node;
 /**
  * @author yushengma
  * 堆排序
- * O(N*logN)
+ * 时间复杂度: O(n*logn); 空间复杂度: O(1) 不稳定
  */
 public class HeapSort {
     private int maxSize;
